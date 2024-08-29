@@ -1,0 +1,23 @@
+main {
+  text-align: center;
+}
+
+#tabellone div {
+  display: inline-block;
+  border: solid;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.evidenzia {
+  color: red;
+}
+
+button {
+  background-color: orange;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+  cursor: pointer;
+}
