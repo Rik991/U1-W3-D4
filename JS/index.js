@@ -12,7 +12,6 @@
 */
 
 let numberRandom = 0;
-let arrayRandom = [];
 
 const createTabellone = () => {
   for (let i = 0; i < 76; i++) {
@@ -29,9 +28,9 @@ const createTabellone = () => {
 const estraiRandom = () => {
   const buttonRandom = document.querySelector("button");
   buttonRandom.onclick = () => {
-    numberRandom = Math.floor(Math.random() * 77);
+    numberRandom = Math.floor(Math.random() * 76) + 1;
 
-    console.log(numberRandom);
+    console.log("Hai estratto il numero", numberRandom);
 
     const numberOnTable = document.querySelectorAll("h3");
     const tabelloneArray = Array.from(numberOnTable);
